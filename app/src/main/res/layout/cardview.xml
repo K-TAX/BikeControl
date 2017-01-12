@@ -1,0 +1,59 @@
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    card_view:cardCornerRadius="4dp"
+    card_view:cardElevation="4dp"
+    card_view:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+<RelativeLayout
+    android:layout_width="100dp"
+    android:layout_height="150dp"
+    android:id="@+id/relativeLayout">
+    <ImageView
+        android:id="@+id/imagen"
+        android:layout_width="80dp"
+        android:layout_height="105dp"
+        android:scaleType="centerInside" />
+
+</RelativeLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="20 Minutos"
+            android:id="@+id/minutos"
+            android:layout_marginLeft="10dp"
+            android:layout_alignParentTop="true"
+            android:textColor="@color/abc_input_method_navigation_guard"
+            android:layout_toEndOf="@+id/relativeLayout" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Osorno - 11:00 AM"
+            android:id="@+id/fechayhora"
+            android:textColor="@color/abc_input_method_navigation_guard"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="1.5 Km"
+            android:textColor="@color/abc_input_method_navigation_guard"
+            android:id="@+id/textView"
+            android:layout_marginLeft="10dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true" />
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

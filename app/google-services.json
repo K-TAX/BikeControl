@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "870472743384",
+    "firebase_url": "https://bikecontrol-da200.firebaseio.com",
+    "project_id": "bikecontrol-da200",
+    "storage_bucket": "bikecontrol-da200.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:870472743384:android:e7bd037a227ddb62",
+        "android_client_info": {
+          "package_name": "com.jrivera.bikecontrol"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "870472743384-0ce09d6q58kreafqggbml56rppjv8e5d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jrivera.bikecontrol",
+            "certificate_hash": "E3F000591C47CCF727E5A9CF9FABC156E31665E3"
+          }
+        },
+        {
+          "client_id": "870472743384-gs61cgpct8382l4e0hpn0csis285qq07.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtSacnoaXtuRyyGIunHE2ATtnyvUZV0lI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "870472743384-gs61cgpct8382l4e0hpn0csis285qq07.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

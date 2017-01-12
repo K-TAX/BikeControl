@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.jrivera.bikecontrol.MainActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <include layout="@layout/content_main"  />
+        </LinearLayout>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/btn_DrawerIn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:backgroundTint="#ffffff"
+            android:src="@drawable/ic_menu_black_24dp"
+            app:elevation="1dp"
+            app:fabSize="normal" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/btn_disabledAlarm"
+            android:visibility="invisible"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:backgroundTint="#ed0101"
+            android:src="@drawable/ic_vibration_black_24dp"
+            app:elevation="1dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            app:fabSize="normal" />
+        <com.getbase.floatingactionbutton.FloatingActionsMenu
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:fab_addButtonColorPressed="#ffffff"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true">
+
+
+            <com.getbase.floatingactionbutton.FloatingActionButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnActionFloatMap"
+                app:fab_size="mini"
+                app:fab_colorNormal="@color/accent"
+                app:fab_icon="@drawable/ic_map_black_24dp"
+                app:fab_title="Mapa"
+
+                />
+            <com.getbase.floatingactionbutton.FloatingActionButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnActionFloatHistory"
+                app:fab_size="mini"
+                app:fab_colorNormal="@color/accent"
+                app:fab_icon="@drawable/ic_art_track_black_24dp"
+                app:fab_title="Historial"
+                />
+            <com.getbase.floatingactionbutton.FloatingActionButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnActionFloatAlarm"
+                app:fab_size="mini"
+                app:fab_colorNormal="@color/accent"
+                app:fab_icon="@drawable/ic_vibration_black_24dp"
+                app:fab_title="Alarma"
+                />
+            <com.getbase.floatingactionbutton.FloatingActionButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnActionFloatCamera"
+                app:fab_colorNormal="@color/accent"
+                app:fab_size="mini"
+                app:fab_icon="@drawable/ic_camera_alt_black_24dp"
+                app:fab_title="Camara"
+                />
+
+
+        </com.getbase.floatingactionbutton.FloatingActionsMenu>
+
+
+
+    </RelativeLayout>
+
+
+
+</android.support.design.widget.CoordinatorLayout>

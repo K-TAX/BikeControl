@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Bike Control</string>
+    <string name="action_settings">Configuración</string>
+    <string name="api_key">AIzaSyBtSacnoaXtuRyyGIunHE2ATtnyvUZV0lI</string>
+    <string name="title_activity_navegation_drawer">NavegationDrawer</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="quienessomos">Quienes Somos</string>
+</resources>
